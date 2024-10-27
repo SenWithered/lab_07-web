@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main, aside, section, footer {
+    padding: 20px;
+    background-color: #b0c4de;
+    border: 2px solid #87a0c4;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+header {
+    clear: both;
+}
+
+nav {
+    clear: both;
+}
+
+main {
+    overflow: hidden;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+section {
+    float: left;
+    width: 70%;
+}
+
+footer {
+    clear: both;
+}
